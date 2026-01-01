@@ -1,1 +1,2 @@
-# No dependencies required for now
+boto3
+neo4j
