@@ -1,7 +1,7 @@
 import json
 import urllib.parse
 
-def lambda_handler(event, context):
+def main(event, context):
     print(f"Received event: {json.dumps(event)}")
     extracted_paths = []
     
