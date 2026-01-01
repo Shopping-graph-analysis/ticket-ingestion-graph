@@ -50,7 +50,7 @@ def test_sqs_s3_extraction():
     }
 
     print("Testing SQS -> S3 Event Extraction...")
-    extracted = main.lambda_handler(sqs_event, None)
+    extracted = main.main(sqs_event, None)
     
     expected_path = "s3://my-test-bucket/uploads/test file.txt"
     
